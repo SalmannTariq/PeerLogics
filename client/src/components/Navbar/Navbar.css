@@ -1,0 +1,30 @@
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+}
+.navbar-expand-lg .navbar-nav{
+    gap: 20px;
+    align-items: center;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #DF6352;
+}
+
+.navbar-toggler{
+    border: 1px solid #DF6352;
+}
+button:hover{
+    border-color: #DF6352 !important;
+}
+
+@media (max-width:991px){
+    .navbar-collapse{
+        height: 85vh;
+    }
+    .navbar-collapse {
+        display: flex;
+        justify-content: center !important;
+    }
+}
