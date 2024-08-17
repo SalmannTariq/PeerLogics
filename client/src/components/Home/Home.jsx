@@ -16,7 +16,7 @@ const Home = () => {
             <section className=' py-5 about-section'>
                 <div className='container'>
                     <div className='row p-3'>
-                        <div className="col-md-5 d-flex justify-content-center align-items-center flex-column">
+                        <div className="col-md-5 d-flex justify-content-center align-items-center align-items-sm-start flex-column">
                             <p className='about-text'>ABOUT US</p>
                             <h1 className='how-work-text'>How We Work</h1>
                         </div>
@@ -35,7 +35,7 @@ const Home = () => {
             {/* Services */}
             <section className='bg-black py-5'>
                 <div className='container'>
-                <div className='d-flex flex-sm-row flex-column gap-3 gap-sm-0 justify-sm-content-between justify-content-center align-items-center'>
+                <div className='d-flex flex-sm-row flex-column gap-3 gap-sm-0 justify-content-sm-between justify-content-center align-items-center'>
                     <div>
                     <h5 className='contact-text'>Contact Us</h5>
                     <h1 className='text-white fw-bold get-text'>GET IN CALL TO <span className='action-text'>ACTION</span></h1>
