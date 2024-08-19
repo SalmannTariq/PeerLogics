@@ -78,6 +78,14 @@
     color: white;
     box-shadow: 0rem 0rem 0.5rem 0rem #DF6352;
 }
+.process-text{
+    color: #DF6352;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.process-h-text{
+    color: white;
+}
 /* media queries */
 /*                 991px                 */
 @media (min-width:769px) and (max-width:992px){

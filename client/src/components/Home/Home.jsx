@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Navbar from '../Navbar/Navbar'
+import processImg from '../assests/process-img.png'
 const Home = () => {
     return (
         <>
@@ -15,7 +16,7 @@ const Home = () => {
             {/* ABout */}
             <section className=' py-5 about-section'>
                 <div className='container'>
-                    <div className='row p-3'>
+                    <div className='row py-3'>
                         <div className="col-md-5 d-flex justify-content-center align-items-center align-items-sm-start flex-column">
                             <p className='about-text'>ABOUT US</p>
                             <h1 className='how-work-text'>How We Work</h1>
@@ -32,18 +33,37 @@ const Home = () => {
                 </div>
 
             </section>
-            {/* Services */}
-            <section className='bg-black py-5'>
+            {/* Process Section */}
+            <section className='bg-black'>
                 <div className='container'>
-                <div className='d-flex flex-sm-row flex-column gap-3 gap-sm-0 justify-content-sm-between justify-content-center align-items-center'>
-                    <div>
-                    <h5 className='contact-text'>Contact Us</h5>
-                    <h1 className='text-white fw-bold get-text'>GET IN CALL TO <span className='action-text'>ACTION</span></h1>
+                    <div className='row py-5'>
+                        <div className="col-md-5 d-flex justify-content-center align-items-center align-items-sm-start flex-column">
+                            <p className='process-text'>PROCESS</p>
+                            <h1 className='process-h-text'>Process</h1>
+                        </div>
+                        <div className="col-md-7">
+                            <p className='text-center text-md-start text-white'>At PeerLogics, we are dedicated to delivering exceptional technology solutions tailored to your business needs.
+                                With years of industry experience, our team of experts provides innovative and reliable services that drive success.
+                            </p>
+                        </div>
                     </div>
-                    <div className='me-sm-5'>
-                        <button className='get-btn'>Get In Touch</button>
+                    <div>
+                        <img src={processImg} className='w-100' alt=''/>
                     </div>
                 </div>
+            </section>
+            {/* Get In Touch */}
+            <section className='bg-black py-5'>
+                <div className='container'>
+                    <div className='d-flex flex-sm-row flex-column gap-3 gap-sm-0 justify-content-sm-between justify-content-center align-items-center'>
+                        <div>
+                            <h5 className='contact-text'>Contact Us</h5>
+                            <h1 className='text-white fw-bold get-text'>GET IN CALL TO <span className='action-text'>ACTION</span></h1>
+                        </div>
+                        <div className='me-sm-5'>
+                            <button className='get-btn'>Get In Touch</button>
+                        </div>
+                    </div>
                 </div>
 
             </section>

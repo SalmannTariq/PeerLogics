@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
+import {Link} from 'react-router-dom'
 // Logo
 import PeerLogics from '../assests/peerlogics.png';
 
@@ -22,42 +23,42 @@ const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <a
+                            <Link
                                 className={`nav-link fs-5 ${activeLink === 'home' ? 'active' : ''}`}
                                 aria-current="page"
-                                href="/home"
+                                to="/home"
                                 onClick={() => handleNavLinkClick('home')}
                             >
                                 Home
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                                 className={`nav-link fs-5 ${activeLink === 'services' ? 'active' : ''}`}
-                                href="/services"
+                                to="/services"
                                 onClick={() => handleNavLinkClick('services')}
                             >
                                 Services
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                                 className={`nav-link fs-5 ${activeLink === 'about' ? 'active' : ''}`}
-                                href="/about"
+                                to="/about"
                                 onClick={() => handleNavLinkClick('about')}
                             >
                                 About
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                                 className={`nav-link fs-5 ${activeLink === 'contact' ? 'active' : ''}`}
-                                href="/contact"
+                                to="/contact"
                                 onClick={() => handleNavLinkClick('contact')}
                             >
                                 Contact
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                                 className={`nav-link fs-5 ${activeLink === 'career' ? 'active' : ''}`}
-                                href="/career"
+                                to="/career"
                                 onClick={() => handleNavLinkClick('career')}
                             >
                                 Career
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
