@@ -1,7 +1,15 @@
 import React from 'react'
 import './Home.css'
 import Navbar from '../Navbar/Navbar'
-import processImg from '../assests/process-img.png'
+import ServiceCards from '../Services/ServiceCards'
+// Logo in Footer
+import PeerLogics from '../assests/peerlogics.png';
+// icons
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import Footer from '../Footer/Footer';
 const Home = () => {
     return (
         <>
@@ -34,10 +42,15 @@ const Home = () => {
 
             </section>
             {/* Services */}
-            <section className='services-section'>
-                <div className='container'>
-                    <p className='expertise-text'>Expertise</p>
-                    <h1 className='services-text'>Our Services</h1>
+            <section >
+                <div className='services-section'>
+                    <div className='container'>
+                        <p className='expertise-text'>Expertise</p>
+                        <h1 className='services-text'>Our Services</h1>
+                    </div>
+                </div>
+                <div className='service-cards'>
+                    <ServiceCards />
                 </div>
             </section>
             {/* Get In Touch */}
@@ -55,6 +68,12 @@ const Home = () => {
                 </div>
 
             </section>
+            {/* Testimonial */}
+            <section>
+                <h1>testimonial space</h1>
+            </section>
+            {/* Footer */}
+            <Footer />
         </>
 
     )

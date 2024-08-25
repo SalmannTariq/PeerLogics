@@ -1,6 +1,7 @@
 import React from 'react'
 import './Services.css'
 import Navbar from '../Navbar/Navbar'
+import ServiceCards from './ServiceCards'
 
 const Services = () => {
     return (
@@ -12,6 +13,10 @@ const Services = () => {
                     <h1 className='our-services-text text-white'>Our Services</h1>
                 </div>
             </div>
+            <div>
+                <ServiceCards />
+            </div>
+
         </>
 
     )

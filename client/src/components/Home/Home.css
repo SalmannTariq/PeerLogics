@@ -81,7 +81,12 @@
 /* Services */
 .services-section{
     background-color: black;
-    padding: 1rem 0;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+.service-cards{
+    margin-top: -200px;
+    margin-bottom: 100px;
 }
 .expertise-text{
     color: #DF6352;
@@ -91,6 +96,7 @@
 .services-text{
     color: white;
 }
+
 /* media queries */
 /*                 991px                 */
 @media (min-width:769px) and (max-width:992px){

@@ -3,18 +3,17 @@ import './Services.css'
 // icons
 import { CgWebsite } from "react-icons/cg";
 import { FaBezierCurve } from "react-icons/fa";
-import { CiMobile3 } from "react-icons/ci";
+import { FaBookMedical } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaDesktop } from "react-icons/fa";
 import { HiSpeakerphone } from "react-icons/hi";
 const ServiceCards = () => {
   return (
-    <div>
-      <div className='container'>
+    <div className='container-fluid'>
             <div className='row my-5'>
                 {/* Web Development */}
                 <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
-                    <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '21rem', height:"250px" }}>
+                    <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '22rem', height:"250px" }}>
                         <div className='icon-section'>
                             <CgWebsite className='icon' />
                         </div>
@@ -23,7 +22,7 @@ const ServiceCards = () => {
                 </div>
                 {/* UI/UX development */}
                 <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-5 mt-md-0">
-                    <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '21rem',height:"250px" }}>
+                    <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '22rem',height:"250px" }}>
                         <div className='icon-section'>
                             <FaBezierCurve className='icon' />
                         </div>
@@ -32,16 +31,16 @@ const ServiceCards = () => {
                 </div>
                 {/* App development */}
                 <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-5 mt-lg-0">
-                    <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '21rem',height:"250px" }}>
+                    <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '22rem',height:"250px" }}>
                         <div className='icon-section'>
-                            <CiMobile3 className='icon' />
+                            <FaBookMedical className='icon' />
                         </div>
-                        <h4>App Development</h4>
+                        <h4>Medical Billing</h4>
                     </div>
                 </div>
                 {/* E-Commerce Development */}
                 <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-5">
-                    <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '21rem', height:"250px" }}>
+                    <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '22rem', height:"250px" }}>
                         <div className='icon-section'>
                             <FaCartShopping className='icon' />
                         </div>
@@ -50,7 +49,7 @@ const ServiceCards = () => {
                 </div>
                 {/* Software development */}
                 <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-5">
-                    <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '21rem',height:"250px" }}>
+                    <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '22rem',height:"250px" }}>
                         <div className='icon-section'>
                             <FaDesktop className='icon' />
                         </div>
@@ -59,14 +58,13 @@ const ServiceCards = () => {
                 </div>
                 {/* Digital markeitng + SEO */}
                 <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-5">
-                    <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '21rem',height:"250px" }}>
+                    <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '22rem',height:"250px" }}>
                         <div className='icon-section'>
                             <HiSpeakerphone className='icon' />
                         </div>
-                        <h4>Digital Markeitng + SEO</h4>
+                        <h4>Medical HR Management</h4>
                     </div>
                 </div>
-            </div>
             </div>
     </div>
   )

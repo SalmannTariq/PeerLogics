@@ -1,0 +1,11 @@
+.footer-logo{
+    width: 15%;
+}
+.footer-line{
+    color: white;
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
