@@ -73,7 +73,10 @@ const Home = () => {
                 <h1>testimonial space</h1>
             </section>
             {/* Footer */}
+            <div>
             <Footer />
+            </div>
+
         </>
 
     )

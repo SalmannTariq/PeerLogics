@@ -1,5 +1,10 @@
 import React from 'react'
 import './Footer.css'
+// icons
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
 const Footer = () => {
   return (
     <>
@@ -21,7 +26,6 @@ const Footer = () => {
                         <p>Copyright &#169; 2024 PeerLogics All Rights Reserved</p>
                     </div>
                 </div>
-
             </section>
     </>
   )
