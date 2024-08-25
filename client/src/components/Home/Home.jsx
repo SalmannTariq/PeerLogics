@@ -33,23 +33,11 @@ const Home = () => {
                 </div>
 
             </section>
-            {/* Process Section */}
-            <section className='bg-black'>
+            {/* Services */}
+            <section className='services-section'>
                 <div className='container'>
-                    <div className='row py-5'>
-                        <div className="col-md-5 d-flex justify-content-center align-items-center align-items-sm-start flex-column">
-                            <p className='process-text'>PROCESS</p>
-                            <h1 className='process-h-text'>Process</h1>
-                        </div>
-                        <div className="col-md-7">
-                            <p className='text-center text-md-start text-white'>At PeerLogics, we are dedicated to delivering exceptional technology solutions tailored to your business needs.
-                                With years of industry experience, our team of experts provides innovative and reliable services that drive success.
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src={processImg} className='w-100' alt=''/>
-                    </div>
+                    <p className='expertise-text'>Expertise</p>
+                    <h1 className='services-text'>Our Services</h1>
                 </div>
             </section>
             {/* Get In Touch */}

@@ -78,12 +78,17 @@
     color: white;
     box-shadow: 0rem 0rem 0.5rem 0rem #DF6352;
 }
-.process-text{
+/* Services */
+.services-section{
+    background-color: black;
+    padding: 1rem 0;
+}
+.expertise-text{
     color: #DF6352;
     letter-spacing: 3px;
     font-size: 20px;
 }
-.process-h-text{
+.services-text{
     color: white;
 }
 /* media queries */
