@@ -2,13 +2,8 @@ import React from 'react'
 import './Home.css'
 import Navbar from '../Navbar/Navbar'
 import ServiceCards from '../Services/ServiceCards'
-// Logo in Footer
-import PeerLogics from '../assests/peerlogics.png';
-// icons
-import { FaFacebookF } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
+
+
 import Footer from '../Footer/Footer';
 const Home = () => {
     return (
@@ -69,12 +64,25 @@ const Home = () => {
 
             </section>
             {/* Testimonial */}
-            <section>
-                <h1>testimonial space</h1>
+            <section className='py-5'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-5">
+                            <p className='happy-text'>HAPPY CLIENT</p>
+                            <h1 className=''>Our Testimonial</h1>
+                            <p>So if you're looking to get a little slogan inspiration of your own,
+                                That's So if you'to get are looking to get a little slogan inspiration of your own,
+                                take a look at some of your favourite
+                            </p>
+                            <a href='#' className='view-more'>View More</a>
+                        </div>
+                        <div className="col-md-7"></div>
+                    </div>
+                </div>
             </section>
             {/* Footer */}
             <div>
-            <Footer />
+                <Footer />
             </div>
 
         </>

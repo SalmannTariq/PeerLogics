@@ -96,7 +96,18 @@
 .services-text{
     color: white;
 }
-
+/* Testimonial */
+.happy-text{
+    color: #DF6352;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.view-more{
+    color: #DF6352;
+}
+.view-more:hover{
+    color: black;
+}
 /* media queries */
 /*                 991px                 */
 @media (min-width:769px) and (max-width:992px){

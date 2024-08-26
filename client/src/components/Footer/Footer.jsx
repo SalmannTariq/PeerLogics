@@ -5,6 +5,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+// Logo in Footer
+import PeerLogics from '../assests/peerlogics.png';
 const Footer = () => {
   return (
     <>
@@ -15,10 +17,10 @@ const Footer = () => {
                             <img src={PeerLogics} className='footer-logo' alt='' />
                         </div>
                         <div className='social-icons'>
-                            <FaFacebookF />
-                            <FaXTwitter />
-                            <FaLinkedinIn />
-                            <FaInstagram />
+                            <FaFacebookF  className='soc-icon'/>
+                            <FaXTwitter className='soc-icon'/>
+                            <FaLinkedinIn className='soc-icon'/>
+                            <FaInstagram className='soc-icon'/>
                         </div>
                     </div>
                     <hr className='footer-line' />
