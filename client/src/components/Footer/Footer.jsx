@@ -25,7 +25,7 @@ const Footer = () => {
                     </div>
                     <hr className='footer-line' />
                     <div className='text-center'>
-                        <p>Copyright &#169; 2024 PeerLogics All Rights Reserved</p>
+                        <p className='text-white'>Copyright &#169; 2024 PeerLogics All Rights Reserved</p>
                     </div>
                 </div>
             </section>

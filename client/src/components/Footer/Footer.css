@@ -9,6 +9,9 @@
     gap: 20px;
     font-size: 30px;
 }
+.soc-icon{
+    color: white;
+}
 .soc-icon:hover{
     color: #DF6352;
 }

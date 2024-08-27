@@ -9,7 +9,7 @@ import { FaDesktop } from "react-icons/fa";
 import { HiSpeakerphone } from "react-icons/hi";
 const ServiceCards = () => {
   return (
-    <div className='container-fluid'>
+    <div className='container'>
             <div className='row my-5'>
                 {/* Web Development */}
                 <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
@@ -29,7 +29,7 @@ const ServiceCards = () => {
                         <h4>UI / UX</h4>
                     </div>
                 </div>
-                {/* App development */}
+                {/* Medical Billing */}
                 <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-5 mt-lg-0">
                     <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '22rem',height:"250px" }}>
                         <div className='icon-section'>
@@ -56,7 +56,7 @@ const ServiceCards = () => {
                         <h4>Software development</h4>
                     </div>
                 </div>
-                {/* Digital markeitng + SEO */}
+                {/* Medical HR Management */}
                 <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-5">
                     <div className="card d-flex align-items-center justify-content-center gap-4" style={{ width: '22rem',height:"250px" }}>
                         <div className='icon-section'>
