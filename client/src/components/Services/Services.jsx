@@ -2,6 +2,7 @@ import React from 'react'
 import './Services.css'
 import Navbar from '../Navbar/Navbar'
 import ServiceCards from './ServiceCards'
+import Footer from '../Footer/Footer'
 
 const Services = () => {
     return (
@@ -16,7 +17,9 @@ const Services = () => {
             <div>
                 <ServiceCards />
             </div>
-
+            <div>
+                <Footer />
+            </div>
         </>
 
     )

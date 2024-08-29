@@ -5,6 +5,7 @@ import ServiceCards from '../Services/ServiceCards'
 
 
 import Footer from '../Footer/Footer';
+import Comments from '../Comments/Comments';
 const Home = () => {
     return (
         <>
@@ -76,7 +77,9 @@ const Home = () => {
                             </p>
                             <a href='#' className='view-more'>View More</a>
                         </div>
-                        <div className="col-md-7"></div>
+                        <div className="col-md-7">
+                            <Comments />
+                        </div>
                     </div>
                 </div>
             </section>

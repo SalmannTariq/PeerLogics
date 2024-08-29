@@ -28,7 +28,7 @@ letter-spacing: 16px;
 .card:hover{
     color: #DF6352;
     transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
-    box-shadow: 0rem 0rem .3rem #DF6352;
+    box-shadow: inset 0rem 0rem 1rem #DF6352;
 }
 .card:hover .icon-section{
     box-shadow: 0rem 0rem .3rem #DF6352;
