@@ -68,7 +68,7 @@ const Home = () => {
             <section className='py-5'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-5">
+                        <div className="col-md-5 d-flex flex-column justify-content-center">
                             <p className='happy-text'>HAPPY CLIENT</p>
                             <h1 className=''>Our Testimonial</h1>
                             <p>So if you're looking to get a little slogan inspiration of your own,

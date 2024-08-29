@@ -1,3 +1,18 @@
-.slick-track{
-    width: 0 !important;
+.swiper-slide {
+    display: flex !important;
+    justify-content: center;
+}
+.swiper-slide-active{
+    display: flex !important;
+    justify-content: center !important;
+}
+.comments-card{
+    background-color: black;
+    color: white;
+}
+.swiper-button-next{
+    color: black !important;
+}
+.swiper-button-prev{
+    color: black !important;
 }

@@ -1,12 +1,11 @@
 // import Swiper core and required modules
 import { Navigation } from 'swiper/modules';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
+import './Comments.css'
 import 'swiper/css';
 import 'swiper/css/navigation';
-// import 'swiper/css/pagination';
-// import 'swiper/css/scrollbar';
+
 const Comments = () => {
   return (
     <Swiper
@@ -18,21 +17,43 @@ const Comments = () => {
       onSlideChange={() => console.log('slide change')}
     >
       <SwiperSlide>
-        <div class="card" style="width: 10rem;">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+        <div className="card comments-card" style={{ width: '21rem' }}>
+          <div className="card-body">
+            <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+              and scrambled it to make a type specimen book.</p>
           </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+      <SwiperSlide>
+      <div className="card comments-card" style={{ width: '21rem' }}>
+          <div className="card-body">
+            <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+              and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+      <div className="card comments-card" style={{ width: '21rem' }}>
+          <div className="card-body">
+          <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+              and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+      <div className="card comments-card" style={{ width: '21rem' }}>
+          <div className="card-body">
+          <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+              and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+      </SwiperSlide>
     </Swiper>
   );
 }
 
-export default Comments
+export default Comments;
