@@ -129,12 +129,15 @@
 }
 /*                 768px                 */
 @media screen and (max-width:768px){
-
+    .main-headline-section{
+        align-items: center;
+    }
     .container{
         max-width: 700px;
     }
     .main-headline-section > h1{
         font-size: 50px;
+        text-align: center;
     }
     .main-headline-section > p{
         font-size: 20px;
@@ -147,6 +150,9 @@
     }
     .contact-text{
         font-size: 18px;
+    }
+    .view-more{
+        margin-bottom: 30px;
     }
 }
 /*                 576px                 */
@@ -192,6 +198,12 @@
     }
     .how-work-text{
         font-size: 35px;
+    }
+    .services-text{
+        font-size: 35px;
+    }
+    .expertise-text{
+        font-size: 16px;
     }
 }
 

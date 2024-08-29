@@ -1,6 +1,7 @@
 // import Swiper core and required modules
 import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { ImQuotesLeft } from "react-icons/im";
 // Import Swiper styles
 import './Comments.css'
 import 'swiper/css';
@@ -19,6 +20,7 @@ const Comments = () => {
       <SwiperSlide>
         <div className="card comments-card" style={{ width: '21rem' }}>
           <div className="card-body">
+          <ImQuotesLeft className='quote-icon'/>
             <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
               and scrambled it to make a type specimen book.</p>
@@ -28,6 +30,7 @@ const Comments = () => {
       <SwiperSlide>
       <div className="card comments-card" style={{ width: '21rem' }}>
           <div className="card-body">
+          <ImQuotesLeft className='quote-icon'/>
             <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
               and scrambled it to make a type specimen book.</p>
@@ -37,6 +40,7 @@ const Comments = () => {
       <SwiperSlide>
       <div className="card comments-card" style={{ width: '21rem' }}>
           <div className="card-body">
+          <ImQuotesLeft className='quote-icon'/>
           <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
               and scrambled it to make a type specimen book.</p>
@@ -46,6 +50,7 @@ const Comments = () => {
       <SwiperSlide>
       <div className="card comments-card" style={{ width: '21rem' }}>
           <div className="card-body">
+          <ImQuotesLeft className='quote-icon'/>
           <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
               and scrambled it to make a type specimen book.</p>

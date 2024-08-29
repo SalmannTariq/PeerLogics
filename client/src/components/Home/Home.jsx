@@ -21,7 +21,7 @@ const Home = () => {
             <section className=' py-5 about-section'>
                 <div className='container'>
                     <div className='row py-3'>
-                        <div className="col-md-5 d-flex justify-content-center align-items-center align-items-sm-start flex-column">
+                        <div className="col-md-5  d-flex justify-content-center align-items-center align-items-md-start flex-column">
                             <p className='about-text'>ABOUT US</p>
                             <h1 className='how-work-text'>How We Work</h1>
                         </div>
@@ -40,7 +40,7 @@ const Home = () => {
             {/* Services */}
             <section >
                 <div className='services-section'>
-                    <div className='container'>
+                    <div className='container text-lg-start text-center'>
                         <p className='expertise-text'>Expertise</p>
                         <h1 className='services-text'>Our Services</h1>
                     </div>
@@ -52,7 +52,7 @@ const Home = () => {
             {/* Get In Touch */}
             <section className='bg-black py-5'>
                 <div className='container'>
-                    <div className='d-flex flex-sm-row flex-column gap-3 gap-sm-0 justify-content-sm-between justify-content-center align-items-center'>
+                    <div className='d-flex flex-md-row flex-column gap-3 gap-md-0 justify-content-sm-between justify-content-center align-items-center'>
                         <div>
                             <h5 className='contact-text'>Contact Us</h5>
                             <h1 className='text-white fw-bold get-text'>GET IN CALL TO <span className='action-text'>ACTION</span></h1>
@@ -68,10 +68,10 @@ const Home = () => {
             <section className='py-5'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-5 d-flex flex-column justify-content-center">
+                        <div className="col-md-5 d-flex flex-column justify-content-center align-items-center align-items-md-start">
                             <p className='happy-text'>HAPPY CLIENT</p>
-                            <h1 className=''>Our Testimonial</h1>
-                            <p>So if you're looking to get a little slogan inspiration of your own,
+                            <h1>Our Testimonial</h1>
+                            <p className='text-center text-md-start'>So if you're looking to get a little slogan inspiration of your own,
                                 That's So if you'to get are looking to get a little slogan inspiration of your own,
                                 take a look at some of your favourite
                             </p>
