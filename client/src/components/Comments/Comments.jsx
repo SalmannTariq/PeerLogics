@@ -18,7 +18,7 @@ const Comments = () => {
       onSlideChange={() => console.log('slide change')}
     >
       <SwiperSlide>
-        <div className="card comments-card" style={{ width: '21rem' }}>
+        <div className="card comments-card">
           <div className="card-body">
           <ImQuotesLeft className='quote-icon'/>
             <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -28,7 +28,7 @@ const Comments = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="card comments-card" style={{ width: '21rem' }}>
+      <div className="card comments-card">
           <div className="card-body">
           <ImQuotesLeft className='quote-icon'/>
             <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -38,7 +38,7 @@ const Comments = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="card comments-card" style={{ width: '21rem' }}>
+      <div className="card comments-card" >
           <div className="card-body">
           <ImQuotesLeft className='quote-icon'/>
           <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -48,7 +48,7 @@ const Comments = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="card comments-card" style={{ width: '21rem' }}>
+      <div className="card comments-card">
           <div className="card-body">
           <ImQuotesLeft className='quote-icon'/>
           <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.

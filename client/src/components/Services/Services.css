@@ -25,10 +25,16 @@ letter-spacing: 16px;
 .icon{
     font-size: 50px;
 }
+.service-card{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    position: relative;
+}
 .service-card:hover{
     color: #DF6352;
     transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
-    box-shadow: inset 0rem 0rem 1rem #DF6352;
+    box-shadow: rgba(223, 99, 82, 0.3) 0px -50px 60px -28px inset;
+
 }
 .service-card:hover .icon-section{
     box-shadow: 0rem 0rem .3rem #DF6352;
@@ -38,7 +44,37 @@ letter-spacing: 16px;
     color: #DF6352;
     transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
-
+/* While hover on card */
+.icon-section-hover,
+.icon-section {
+    transition: all 0.3s ease;
+}
+.icon-section-hover{
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0rem 0rem 0.2rem #DF6352;
+    position: relative;
+}
+.icon-hover{
+    font-size: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+.read-btn-hover{
+    background-color: #DF6352;
+    color: white;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    padding: 5px 20px;
+}
+/* .hovered-text{
+    font-size: 14px;
+} */
 /* media queries */
 /*                 576px              */
 @media (max-width:577px){

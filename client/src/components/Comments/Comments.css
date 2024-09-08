@@ -10,6 +10,7 @@
     background-color: black;
     color: white;
     padding: 20px;
+    width: 21rem;
 }
 .swiper-button-next{
     color: black !important;
@@ -21,7 +22,6 @@
 }
 .swiper-button-prev:after, .swiper-button-next:after {
     font-size: 30px !important;
-    font-weight: bold !important;
 }
 .quote-icon{
     color: white;
@@ -38,3 +38,40 @@
         left: var(--swiper-navigation-sides-offset, 20px) !important;
     }
 }
+@media (max-width:426px){
+    .comments-card{
+        width: 18rem;
+    }
+    .swiper-button-prev:after, .swiper-button-next:after {
+        font-size: 25px !important;
+    }
+    .swiper-button-next{
+        color: black !important;
+        right: var(--swiper-navigation-sides-offset, 10px) !important;
+    }
+    .swiper-button-prev{
+        color: black !important;
+        left: var(--swiper-navigation-sides-offset, 10px) !important;
+    }
+}
+ @media (max-width:376px){
+    .comments-card{
+        width: 16rem;
+    }
+ }
+ @media (max-width:320px){
+    .comments-card{
+        width: 15rem;
+    }
+    .swiper-button-prev:after, .swiper-button-next:after {
+        font-size: 20px !important;
+    }
+    .swiper-button-next{
+        color: black !important;
+        right: var(--swiper-navigation-sides-offset, 0px) !important;
+    }
+    .swiper-button-prev{
+        color: black !important;
+        left: var(--swiper-navigation-sides-offset, 0px) !important;
+    }
+ }
