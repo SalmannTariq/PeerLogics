@@ -12,7 +12,7 @@ const Footer = () => {
     <>
       <section className='bg-black py-5'>
                 <div className='container'>
-                    <div className=" d-flex justify-content-between">
+                    <div className=" d-flex justify-content-between align-items-center">
                         <div>
                             <img src={PeerLogics} className='footer-logo' alt='' />
                         </div>
@@ -25,7 +25,7 @@ const Footer = () => {
                     </div>
                     <hr className='footer-line' />
                     <div className='text-center'>
-                        <p className='text-white'>Copyright &#169; 2024 PeerLogics All Rights Reserved</p>
+                        <p className='text-white copy-right-text'>Copyright &#169; 2024 PeerLogics All Rights Reserved</p>
                     </div>
                 </div>
             </section>

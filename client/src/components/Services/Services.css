@@ -29,6 +29,9 @@ letter-spacing: 16px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .service-card:hover{
     color: #DF6352;
@@ -72,16 +75,19 @@ letter-spacing: 16px;
     transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
     padding: 5px 20px;
 }
-/* .hovered-text{
-    font-size: 14px;
-} */
+
+
 /* media queries */
+
+
 /*                 576px              */
 @media (max-width:577px){
     .our-services-text{
         font-size: 40px !important;
     }
 }
+
+
 /*                 426px              */
 @media (max-width:426px){
     .our-services-text{

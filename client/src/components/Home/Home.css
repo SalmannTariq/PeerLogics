@@ -83,6 +83,9 @@
     background-color: black;
     padding-top: 5rem;
     padding-bottom: 15rem;
+    background-image: url("../assests/services-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .service-cards{
     margin-top: -200px;

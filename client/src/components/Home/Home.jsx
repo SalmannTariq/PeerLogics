@@ -14,7 +14,9 @@ const Home = () => {
                 <div className='container main-headline-section'>
                     <h1 className='text-white'><span className='headline'>Innovative Solutions</span><br />for Your Business <span className='headline'>Needs.</span></h1>
                     <p className='text-white'>Innovative Solutions for Your Business Needs.</p>
-                    <button className='learn-btn'>Learn More</button>
+                    <div className='w-50 position-relative d-flex justify-content-center justify-content-lg-start'>
+                        <button className='learn-btn position-absolute'>Learn More</button>
+                    </div>
                 </div>
             </div>
             {/* ABout */}
@@ -29,8 +31,8 @@ const Home = () => {
                             <p className='text-center text-md-start'>At PeerLogics, we are dedicated to delivering exceptional technology solutions tailored to your business needs.
                                 With years of industry experience, our team of experts provides innovative and reliable services that drive success.
                             </p>
-                            <div className='text-center text-md-start'>
-                                <button className='read-btn'>Read More</button>
+                            <div className='position-relative d-flex justify-content-center justify-content-lg-start'>
+                                <button className='read-btn position-absolute'>Read More</button>
                             </div>
                         </div>
                     </div>
