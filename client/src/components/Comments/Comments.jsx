@@ -1,19 +1,21 @@
 // import Swiper core and required modules
-import { Navigation } from 'swiper/modules';
+import { Navigation,Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { ImQuotesLeft } from "react-icons/im";
 // Import Swiper styles
-import './Comments.css'
+import './Comments.css';
 import 'swiper/css';
+import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 const Comments = () => {
   return (
     <Swiper
-      modules={[Navigation]}
+      modules={[Navigation, Pagination]}
       spaceBetween={50}
       slidesPerView={1}
       navigation
+      pagination={{ clickable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >

@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
-import {Link} from 'react-router-dom'
 // Logo
 import PeerLogics from '../assests/peerlogics.png';
 
 const Navbar = () => {
-    const [activeLink, setActiveLink] = useState('home');
+    const location = useLocation();
+    const [activeLink, setActiveLink] = useState('');
 
-    const handleNavLinkClick = (linkName) => {
-        setActiveLink(linkName);
-    };
+    useEffect(() => {
+        // Set the active link based on the current path
+        const currentPath = location.pathname.split("/")[1];
+        setActiveLink(currentPath);
+    }, [location]);
 
     return (
         <div>
@@ -27,35 +30,30 @@ const Navbar = () => {
                                 className={`nav-link fs-5 ${activeLink === 'home' ? 'active' : ''}`}
                                 aria-current="page"
                                 to="/home"
-                                onClick={() => handleNavLinkClick('home')}
                             >
                                 Home
                             </Link>
                             <Link
                                 className={`nav-link fs-5 ${activeLink === 'services' ? 'active' : ''}`}
                                 to="/services"
-                                onClick={() => handleNavLinkClick('services')}
                             >
                                 Services
                             </Link>
                             <Link
                                 className={`nav-link fs-5 ${activeLink === 'about' ? 'active' : ''}`}
                                 to="/about"
-                                onClick={() => handleNavLinkClick('about')}
                             >
                                 About
                             </Link>
                             <Link
                                 className={`nav-link fs-5 ${activeLink === 'contact' ? 'active' : ''}`}
                                 to="/contact"
-                                onClick={() => handleNavLinkClick('contact')}
                             >
                                 Contact
                             </Link>
                             <Link
                                 className={`nav-link fs-5 ${activeLink === 'career' ? 'active' : ''}`}
                                 to="/career"
-                                onClick={() => handleNavLinkClick('career')}
                             >
                                 Career
                             </Link>

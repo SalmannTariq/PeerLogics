@@ -8,6 +8,9 @@
 .nav-link{
     color: white;
 }
+.active{
+    color: #DF6352 !important;
+}
 .nav-link:hover{
     color: #DF6352;
 }
