@@ -9,7 +9,6 @@ const Navbar = () => {
     const [activeLink, setActiveLink] = useState('');
 
     useEffect(() => {
-        // Set the active link based on the current path
         const currentPath = location.pathname.split("/")[1];
         setActiveLink(currentPath);
     }, [location]);

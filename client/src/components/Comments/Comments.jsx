@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 
 const Comments = () => {
   return (
+
     <Swiper
       modules={[Navigation, Pagination]}
       spaceBetween={50}
