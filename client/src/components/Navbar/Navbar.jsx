@@ -50,12 +50,6 @@ const Navbar = () => {
                             >
                                 Contact
                             </Link>
-                            <Link
-                                className={`nav-link fs-5 ${activeLink === 'career' ? 'active' : ''}`}
-                                to="/career"
-                            >
-                                Career
-                            </Link>
                         </div>
                     </div>
                 </div>
