@@ -5,6 +5,9 @@
     flex-direction: column;
     height: 50vh;
 }
+.card{
+    padding: 1rem !important;
+}
 .expertise-text{
     color: #DF6352;
     letter-spacing: 13px;
@@ -13,28 +16,26 @@
 .our-services-text{
 letter-spacing: 16px;
 }
-.icon-section{
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0rem 0rem .2rem black;
-}
 .icon{
-    font-size: 50px;
+    width: 40px;
+    height: 40px;
+}
+.arrow-icon{
+    color: #DF6352;
+    margin-top: 2px;
+}
+.more-about-text{
+    color: #DF6352;
 }
 .service-card{
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+
+    border: 1px solid #DF6352;
 }
 .service-card:hover{
-    color: #DF6352;
     transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
     box-shadow: rgba(223, 99, 82, 0.3) 0px -50px 60px -28px inset;
 
