@@ -52,10 +52,6 @@
     letter-spacing: 3px;
     font-size: 20px;
 }
-.contact-text{
-    color: #DF6352;
- letter-spacing: 10px;
-}
 .action-text{
     color: #DF6352;
 }
@@ -144,9 +140,6 @@
     .get-btn{
         padding: .4rem 2rem;
     }
-    .contact-text{
-        font-size: 18px;
-    }
     .view-more{
         margin-bottom: 30px;
     }
@@ -165,9 +158,6 @@
     }
     .how-work-text{
         font-size: 45px;
-    }
-    .contact-text{
-        text-align: center;
     }
 }
 /*                 425px                 */
@@ -188,9 +178,6 @@
     }
     .get-btn{
         padding: .3rem 1.7rem;
-    }
-    .contact-text{
-        font-size: 16px;
     }
     .how-work-text{
         font-size: 35px;

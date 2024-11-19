@@ -56,11 +56,11 @@ const Home = () => {
                 <div className='container'>
                     <div className='d-flex flex-md-row flex-column gap-3 gap-md-0 justify-content-sm-between justify-content-center align-items-center'>
                         <div>
-                            <h5 className='contact-text'>Contact Us</h5>
-                            <h1 className='text-white fw-bold get-text'>GET IN CALL TO <span className='action-text'>ACTION</span></h1>
+
+                            <h1 className='text-white fw-bold get-text'>Let's Connect to Build<span className='action-text'> Something Great</span></h1>
                         </div>
                         <div className='me-sm-5'>
-                            <button className='get-btn'>Get In Touch</button>
+                            <button className='get-btn'>Lets talk</button>
                         </div>
                     </div>
                 </div>
