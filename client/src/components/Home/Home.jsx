@@ -56,8 +56,8 @@ const Home = () => {
                 <div className='container'>
                     <div className='d-flex flex-md-row flex-column gap-3 gap-md-0 justify-content-sm-between justify-content-center align-items-center'>
                         <div>
-
                             <h1 className='text-white fw-bold get-text'>Let's Connect to Build<span className='action-text'> Something Great</span></h1>
+                            <p className='text-white'>Whether you're ready to start or just exploring, we're here to help. Reach out and take the first</p>
                         </div>
                         <div className='me-sm-5'>
                             <button className='get-btn'>Lets talk</button>
@@ -77,7 +77,6 @@ const Home = () => {
                                 That's So if you'to get are looking to get a little slogan inspiration of your own,
                                 take a look at some of your favourite
                             </p>
-                            <a href='#' className='view-more'>View More</a>
                         </div>
                         <div className="col-md-7">
                             <Comments />

@@ -94,12 +94,6 @@
     letter-spacing: 3px;
     font-weight: bold;
 }
-.view-more{
-    color: #DF6352;
-}
-.view-more:hover{
-    color: black;
-}
 /* media queries */
 /*                 991px                 */
 @media (min-width:769px) and (max-width:992px){
@@ -139,9 +133,6 @@
     }
     .get-btn{
         padding: .4rem 2rem;
-    }
-    .view-more{
-        margin-bottom: 30px;
     }
 }
 /*                 576px                 */
