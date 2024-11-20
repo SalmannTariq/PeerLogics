@@ -32,14 +32,11 @@ letter-spacing: 16px;
     position: relative;
     display: flex;
     justify-content: center;
-    box-shadow: 0px 0px 0px .1px #DF6352;
-    border: 1px solid transparent;
+    /* box-shadow: 0px 0px 0px .1px #DF6352; */
+    border: 1px solid #DF6352;
     transition: border 0.3s ease;
 }
-.service-card:hover{
-    box-shadow: none;
-    border: 1px solid #DF6352;
-}
+
 /* While hover on card */
 .icon-section-hover,
 .icon-section {
