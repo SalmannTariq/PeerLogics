@@ -60,7 +60,7 @@ const Home = () => {
                             <p className='text-white'>Whether you're ready to start or just exploring, we're here to help. Reach out and take the first</p>
                         </div>
                         <div className='me-sm-5'>
-                            <button className='get-btn'>Lets talk</button>
+                            <button className='talk-btn'>Lets talk</button>
                         </div>
                     </div>
                 </div>
