@@ -19,13 +19,15 @@ const ServiceCards = () => {
                     <div className="card service-card" style={{ width: '22rem', height: " 300px" }}>
                         <div className="position-absolute d-flex flex-column gap-2 ">
                             <div className=' '>
-                                <img src={webDevelopment} alt='web-development' className='icon'  />
+                                <img src={webDevelopment} alt='web-development' className='icon' />
                             </div>
                             <p className='m-0'>At PeerLogics, we are dedicated to delivering exceptional technology solutions tailored to your business needs. With years of industry experience, our team of experts provides innovative and reliable services that drive success.</p>
                             <h4>Website Development</h4>
-                            <div className='d-flex align-items-center gap-2'>
-                                <p className='mb-0 more-about-text'>More About</p>
-                                <FaArrowRight className='arrow-icon'/>
+                            <div>
+                                <a className='d-flex align-items-center gap-2 text-decoration-none' href="#">
+                                    <p className='mb-0 more-about-text'>More About</p>
+                                    <FaArrowRight className='arrow-icon' />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -39,9 +41,11 @@ const ServiceCards = () => {
                             </div>
                             <p className='m-0'>At PeerLogics, we are dedicated to delivering exceptional technology solutions tailored to your business needs. With years of industry experience, our team of experts provides innovative and reliable services that drive success.</p>
                             <h4>UI / UX</h4>
-                            <div className='d-flex align-items-center gap-2'>
+                            <div>
+                                <a className='d-flex align-items-center gap-2 text-decoration-none' href="#">
                                 <p className='mb-0 more-about-text'>More About</p>
-                                <FaArrowRight className='arrow-icon'/>
+                                <FaArrowRight className='arrow-icon' />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -55,9 +59,11 @@ const ServiceCards = () => {
                             </div>
                             <p className='m-0'>At PeerLogics, we are dedicated to delivering exceptional technology solutions tailored to your business needs. With years of industry experience, our team of experts provides innovative and reliable services that drive success.</p>
                             <h4>Medical Billing</h4>
-                            <div className='d-flex align-items-center gap-2'>
+                            <div>
+                                <a className='d-flex align-items-center gap-2 text-decoration-none' href="#">
                                 <p className='mb-0 more-about-text'>More About</p>
-                                <FaArrowRight className='arrow-icon'/>
+                                <FaArrowRight className='arrow-icon' />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -71,9 +77,11 @@ const ServiceCards = () => {
                             </div>
                             <p className='m-0'>At PeerLogics, we are dedicated to delivering exceptional technology solutions tailored to your business needs. With years of industry experience, our team of experts provides innovative and reliable services that drive success.</p>
                             <h4>E-Commerce Develop</h4>
-                            <div className='d-flex align-items-center gap-2'>
+                            <div >
+                                <a className='d-flex align-items-center gap-2 text-decoration-none' href="#">
                                 <p className='mb-0 more-about-text'>More About</p>
-                                <FaArrowRight className='arrow-icon'/>
+                                <FaArrowRight className='arrow-icon' />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -87,6 +95,12 @@ const ServiceCards = () => {
                             </div>
                             <p className='m-0'>At PeerLogics, we are dedicated to delivering exceptional technology solutions tailored to your business needs. With years of industry experience, our team of experts provides innovative and reliable services that drive success.</p>
                             <h4>Software Development</h4>
+                            <div >
+                                <a className='d-flex align-items-center gap-2 text-decoration-none' href="#">
+                                <p className='mb-0 more-about-text'>More About</p>
+                                <FaArrowRight className='arrow-icon' />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -99,9 +113,11 @@ const ServiceCards = () => {
                             </div>
                             <p className='m-0'>At PeerLogics, we are dedicated to delivering exceptional technology solutions tailored to your business needs. With years of industry experience, our team of experts provides innovative and reliable services that drive success.</p>
                             <h4>Medical HR Management</h4>
-                            <div className='d-flex align-items-center gap-2'>
+                            <div >
+                                <a className='d-flex align-items-center gap-2 text-decoration-none' href="#">
                                 <p className='mb-0 more-about-text'>More About</p>
-                                <FaArrowRight className='arrow-icon'/>
+                                <FaArrowRight className='arrow-icon' />
+                                </a>
                             </div>
                         </div>
                     </div>

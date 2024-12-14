@@ -34,11 +34,14 @@
 }
 .submit-btn{
     background-color: #DF6352;
+    border: none;
+    padding: .5rem 1rem;
     color: white;
 }
 .submit-btn:hover{
     background-color: white;
     color: #DF6352;
+    border: 1px solid #DF6352;
 }
 
 /* Media Queries */

@@ -24,21 +24,21 @@ const Contact = () => {
                             <div className='d-flex align-items-center gap-3 contact-detail-bg'>
                                 <IoLocationSharp className='contact-page-icons' />
                                 <div>
-                                    <h6 className='mb-0'>Our Head Office</h6>
+                                    {/* <h6 className='mb-0'>Our Head Office</h6> */}
                                     <p className='mb-0'>35-C Empress Road Lahore</p>
                                 </div>
                             </div>
                             <div className='d-flex align-items-center gap-3 contact-detail-bg'>
                                 <IoIosMail className='contact-page-icons' />
                                 <div>
-                                    <h6 className='mb-0'>Mail us for more information</h6>
+                                    {/* <h6 className='mb-0'>Mail us for more information</h6> */}
                                     <p className='mb-0'>info@peerlogics.com.pk</p>
                                 </div>
                             </div>
                             <div className='d-flex align-items-center gap-3 contact-detail-bg'>
                                 <FaPhoneAlt className="contact-page-icons" />
                                 <div>
-                                    <h6 className='mb-0'>Mail us for more information</h6>
+                                    {/* <h6 className='mb-0'>Mail us for more information</h6> */}
                                     <p className='mb-0'>info@peerlogics.com.pk</p>
                                 </div>
                             </div>

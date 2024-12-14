@@ -70,6 +70,10 @@
     color: white;
     box-shadow: 0rem 0rem 0.5rem 0rem #DF6352;
 }
+.talk-img{
+    width: 500px;
+    height: 300px;
+}
 /* Services */
 .services-section{
     background-color: rgb(251, 249, 249);
