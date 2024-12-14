@@ -50,7 +50,7 @@ const Contact = () => {
                             <h5 className='fw-bold'>Call To <span className='action-text'>Action</span></h5>
                             <p>So if you're looking to get a little slogan inspiration of your own,</p>
                             </div>
-                            <div className='d-flex gap-5'>
+                            <div className='d-flex gap-2'>
                                 <div className='d-flex flex-column'>
                                     <label>Name:</label>
                                     <input type="text" className='input-field' placeholder='Type your name...' />

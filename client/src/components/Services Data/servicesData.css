@@ -1,0 +1,18 @@
+.web-section{
+    background-color: black;
+    height: 50vh;
+}
+.our-services-text{
+    letter-spacing: 16px;
+}
+.web{
+    color: #DF6352 !important;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.list-bullets{
+    list-style: none;
+}
+.tick-icon{
+    color: #DF6352;
+}
