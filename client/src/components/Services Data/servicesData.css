@@ -2,7 +2,7 @@
     height: 40vh;
     background-image: url("../assests/servicedata-bg-2.jpeg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 .our-services-text{
     letter-spacing: 10px;
