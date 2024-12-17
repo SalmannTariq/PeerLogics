@@ -1,42 +1,45 @@
-.servicename-section{
-    height: 40vh;
-    background-image: url("../assests/servicedata-bg-2.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.servicename-section {
+  /* height: 50vh; */
+  background-image: url("../assests/servicedata-bg-2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.our-services-text{
-    letter-spacing: 10px;
+.servicename-section > div {
+  height: 30vh;
 }
-.heading-color{
-    color: #DF6352;
+.our-services-text {
+  letter-spacing: 10px;
 }
-.web{
-    color: #DF6352 !important;
-    font-size: 20px;
-    letter-spacing: 2px;
+.heading-color {
+  color: #df6352;
 }
-.servicedata-img{
-    width: 900px;
-    height: 350px;
+.web {
+  color: #df6352 !important;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
-.billing-img{
-    width: 300px;
-    height: 200px;
+.servicedata-img {
+  width: 900px;
+  height: 350px;
 }
-.list-bullets{
-    list-style: none;
+.billing-img {
+  width: 300px;
+  height: 200px;
 }
-.tick-icon{
-    color: #DF6352;
+.list-bullets {
+  list-style: none;
 }
-.card-title{
-    background-color: #DF6352;
-    color: white;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+.tick-icon {
+  color: #df6352;
 }
-.servicedata-cards{
-    padding: 0 !important;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+.card-title {
+  background-color: #df6352;
+  color: white;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.servicedata-cards {
+  padding: 0 !important;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }

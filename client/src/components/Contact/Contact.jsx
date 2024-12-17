@@ -6,6 +6,7 @@ import { IoIosMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
+import Testimonials from '../Testimonials/Testimonials';
 const Contact = () => {
     return (
         <>
@@ -17,9 +18,7 @@ const Contact = () => {
                     <div className='col-md-5'>
                         <p className='get-started-text mb-0'>GET STARTED</p>
                         <h1>Contact Us</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            of type and scrambled it to make a type specimen book.</p>
+                        <p className='1h-base'>We’re here to help you transform your ideas into reality! Whether you have a question about our services, need a customized solution, or just want to explore how PeerLogics can support your business, we’d love to hear from you. Reach out to us today, and let’s start building something great together. Our team is ready to provide the support and insights you need to move forward with confidence.</p>
                         <div className='d-flex flex-md-column gap-3'>
                             <div className='d-flex align-items-center gap-3 contact-detail-bg'>
                                 <IoLocationSharp className='contact-page-icons' />
@@ -45,10 +44,10 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='col-md-7 d-flex justify-content-center'>
-                        <div className='contact-box d-flex flex-column gap-4'>
+                        <div className='contact-box d-flex flex-column gap-5'>
                             <div>
                             <h5 className='fw-bold'>Call To <span className='action-text'>Action</span></h5>
-                            <p>So if you're looking to get a little slogan inspiration of your own,</p>
+                            <p>Let's Bring Your Vision to Life – Reach Out Today!</p>
                             </div>
                             <div className='d-flex gap-2'>
                                 <div className='d-flex flex-column'>
@@ -74,6 +73,9 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='mt-5 pt-2'>
+                <Testimonials />
             </div>
             <div className='mt-5'>
                 <Footer />

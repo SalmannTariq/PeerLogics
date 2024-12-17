@@ -3,49 +3,76 @@ import Navbar from '../Navbar/Navbar'
 import './servicesData.css'
 import { Link } from 'react-router-dom'
 import { FaCheckCircle } from "react-icons/fa";
+import UIUX from '../assests/UI-UX.png'
+import billing from '../assests/Billing-2.jpg'
 import GetInTouch from '../GetInTouch/GetInTouch';
 import Testimonials from '../Testimonials/Testimonials';
 import Footer from '../Footer/Footer';
 const UiUx = () => {
-  return (
-    <>
-            <div className='bg-black'>
-                <Navbar />
-            </div>
+    return (
+        <>
             <div>
-                <div className='web-section d-flex flex-column justify-content-center align-items-center'>
-                    <h1 className='text-white our-services-text'>Our Services</h1>
-                    <p className='web'><Link className='text-decoration-none text-white' to="/services">Services</Link><span className='text-white'> &gt; </span> Ui / Ux</p>
+                <div className='servicename-section'>
+                    <Navbar />
+                    <div className=' d-flex flex-column justify-content-center align-items-center'>
+                        <h1 className='text-white our-services-text'>UI / UX</h1>
+                        <p className='web'><Link className='text-decoration-none text-white' to="/home">Home</Link><span className='text-white'> &gt; </span> UI/UX</p>
+                    </div>
                 </div>
-                <article className='py-5 container'>
-                    <h2 className='fw-bold'>Website Development</h2>
-                    <p>At Peerlogics we specialize in creating visually appealing, high-performance websites that drive business growth.
-                        Our team focuses on crafting responsive, scalable, and secure websites tailored to meet your unique needs.
-                        Whether you're looking for a simple portfolio or a dynamic e-commerce platform, we ensure seamless user experience,
-                        optimized performance, and modern design trends to enhance your digital presence.</p>
-                    <h4 className='fw-bold'>Why Choose Us?</h4>
-                    <ul className='p-0'>
-                        <li className='list-bullets d-flex align-items-center gap-3'>
-                            <span><FaCheckCircle className='tick-icon'/></span>
-                            <span className='fw-bold'>Custom Solutions:</span>  Tailored websites to suit your business requirements.
-                        </li>
-                        <li className='list-bullets d-flex align-items-center gap-3'>
-                            <span><FaCheckCircle className='tick-icon'/></span>
-                            <span className='fw-bold'>Responsive Design:</span>  Optimized for all devices, ensuring seamless access across platforms.</li>
-                        <li className='list-bullets d-flex align-items-center gap-3'>
-                            <span><FaCheckCircle className='tick-icon'/></span>
-                            <span className='fw-bold'>SEO-Friendly:</span>  Built with best practices for higher visibility on search engines.</li>
-                        <li className='list-bullets d-flex align-items-center gap-3'>
-                            <span><FaCheckCircle className='tick-icon'/></span>
-                            <span className='fw-bold'>Performance Focused:</span>  Fast loading times and smooth navigation for enhanced user engagement.</li>
-                        <li className='list-bullets d-flex align-items-center gap-3'>
-                            <span><FaCheckCircle className='tick-icon'/></span>
-                            <span className='fw-bold'>Ongoing Support:</span>  Reliable maintenance and support to keep your website updated and secure.</li>
-                    </ul>
-                    <p>With Peerlogics, you’re choosing a partner committed to your digital success. Let us help you build a website
-                        that not only looks great but also drives results for your business.</p>
-                </article>
-                <div>
+                {/*  */}
+                <div className='container'>
+                    <div className='text-center py-5'>
+                        <img src={UIUX} className='rounded servicedata-img' />
+                    </div>
+                    {/* Powering Your Web Experience & What we deliver */}
+                    <div className='row py-5'>
+                        <div className="col-lg-8 lh-lg">
+                            <h2 className='fw-bold heading-color'>Crafting Engaging User Experiences</h2>
+                            <p>In today's digital landscape, user experience (UX) and user interface (UI) design are critical to engaging and retaining customers. At PeerLogics, we create intuitive, visually appealing designs that prioritize usability and functionality.</p>
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="card servicedata-cards" style={{ width: '25rem' }}>
+                                <h5 className="card-title fw-bold p-3 text-center">What We Deliver</h5>
+                                <ul className='list-style-none list-bullets p-0 text-center'>
+                                    <li className='border-bottom p-2 fw-bold'>Wireframes and prototypes</li>
+                                    <li className='border-bottom p-2 fw-bold'>High-fidelity UI designs</li>
+                                    <li className='p-2 fw-bold'>UX research and testing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    {/*  */}
+                    <div className='row mt-5'>
+                        <div className="col-lg-9 ">
+                            <h4 className='fw-bold heading-color mb-4'>Why Choose Us?</h4>
+                            <ul className='p-0'>
+                                <li className='list-bullets d-flex align-items-center gap-1 lh-lg'>
+                                    <span><FaCheckCircle className='tick-icon' /></span>
+                                    <span className='fw-bold'>User-Centric Approach: </span>Designs are based on understanding user behavior and needs.
+                                </li>
+                                <li className='list-bullets d-flex align-items-center gap-1 lh-lg'>
+                                    <span><FaCheckCircle className='tick-icon' /></span>
+                                    <span className='fw-bold'>Creative & Functional: </span>A perfect blend of creativity and seamless navigation.</li>
+                                <li className='list-bullets d-flex align-items-center gap-1 lh-lg'>
+                                    <span><FaCheckCircle className='tick-icon' /></span>
+                                    <span className='fw-bold'>Prototyping & Testing: </span>Iterative design processes to ensure efficiency and satisfaction.</li>
+                                <li className='list-bullets d-flex align-items-center gap-1 lh-lg'>
+                                    <span><FaCheckCircle className='tick-icon' /></span>
+                                    <span className='fw-bold'>Responsive Design: </span>Consistent user experience across all devices.</li>
+                                <li className='list-bullets d-flex align-items-center gap-1 lh-lg'>
+                                    <span><FaCheckCircle className='tick-icon' /></span>
+                                    <span className='fw-bold'>Modern Tools: </span>Use of tools like Figma, Adobe XD, and InVision for precision and clarity.</li>
+                            </ul>
+                        </div>
+                        <div className="col-lg-3 d-flex justify-content-center align-items-center">
+                            <img src={billing} className='billing-img rounded' />
+                        </div>
+                    </div>
+                    <p className='my-5 py-3 lh-lg'>We design experiences that leave a lasting impression while driving conversions for your business.</p>
+                </div>
+
+
+                <div className='my-5'>
                     <GetInTouch />
                 </div>
                 <div>
@@ -57,7 +84,7 @@ const UiUx = () => {
             </div>
         </>
 
-  )
+    )
 }
 
 export default UiUx

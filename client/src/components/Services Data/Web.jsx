@@ -11,14 +11,18 @@ import Footer from '../Footer/Footer';
 const Web = () => {
     return (
         <>
-            <div className='bg-black'>
+            {/* <div className='bg-black'>
                 <Navbar />
-            </div>
+            </div> */}
             <div>
-                <div className='servicename-section d-flex flex-column justify-content-center align-items-center'>
+                <div className='servicename-section'>
+                <Navbar />
+                <div className=' d-flex flex-column justify-content-center align-items-center'>
                     <h1 className='text-white our-services-text'>Website Development</h1>
                     <p className='web'><Link className='text-decoration-none text-white' to="/home">Home</Link><span className='text-white'> &gt; </span> Web Development</p>
                 </div>
+                </div>
+
                 {/*  */}
                 <div className='container'>
                     <div className='text-center py-5'>
@@ -36,7 +40,7 @@ const Web = () => {
                             <div className="col-lg-4">
                             <div className="card servicedata-cards" style={{ width: '25rem' }}>
                                 <h5 className="card-title fw-bold p-3 text-center">What We Deliver</h5>
-                                <ul className='list-style-none list-bullets p-0 '>
+                                <ul className='list-style-none list-bullets p-0 text-center'>
                                     <li className='border-bottom p-2 fw-bold'>Cutting-edge technology implementation</li>
                                     <li className='border-bottom p-2 fw-bold'>Conversion-focused layouts and UI</li>
                                     <li className='p-2 fw-bold'>Full-stack development for end-to-end solutions</li>
