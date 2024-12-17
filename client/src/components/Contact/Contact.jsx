@@ -52,20 +52,20 @@ const Contact = () => {
                             <div className='d-flex gap-2'>
                                 <div className='d-flex flex-column'>
                                     {/* <label>Name:</label> */}
-                                    <input type="text" className='input-field' placeholder='Type your name...' />
+                                    <input type="text" className='input-field' placeholder='Name...' />
                                 </div>
                                 <div className='d-flex flex-column'>
                                     {/* <label>Phone:</label> */}
-                                    <input type="tel" className='input-field' placeholder='Type your phone...' />
+                                    <input type="tel" className='input-field' placeholder='Phone...' />
                                 </div>
                             </div>
                             <div className='d-flex flex-column'>
                                 {/* <label>Email:</label> */}
-                                <input type="email" className='input-field' placeholder='Type your email...' />
+                                <input type="email" className='input-field' placeholder='Email...' />
                             </div>
                             <div className='d-flex flex-column'>
                                 {/* <label>Message:</label> */}
-                                <textarea type="text" className='input-field' placeholder='Type your message...' />
+                                <textarea type="text" className='input-field' placeholder='Message...' />
                             </div>
                             <div className='text-center'>
                                 <button className='submit-btn'>Submit Now</button>
