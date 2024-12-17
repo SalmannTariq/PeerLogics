@@ -1,8 +1,8 @@
 .servicename-section{
-    height: 70vh;
+    height: 40vh;
     background-image: url("../assests/servicedata-bg-2.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .our-services-text{
     letter-spacing: 10px;
@@ -14,6 +14,14 @@
     color: #DF6352 !important;
     font-size: 20px;
     letter-spacing: 2px;
+}
+.servicedata-img{
+    width: 900px;
+    height: 350px;
+}
+.billing-img{
+    width: 300px;
+    height: 200px;
 }
 .list-bullets{
     list-style: none;
