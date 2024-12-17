@@ -1,5 +1,4 @@
 .servicename-section{
-    background-color: black;
     height: 70vh;
     background-image: url("../assests/servicedata-bg-2.jpeg");
     background-repeat: no-repeat;
@@ -21,4 +20,15 @@
 }
 .tick-icon{
     color: #DF6352;
+}
+.card-title{
+    background-color: #DF6352;
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.servicedata-cards{
+    padding: 0 !important;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }

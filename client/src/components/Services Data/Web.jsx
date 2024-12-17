@@ -20,41 +20,48 @@ const Web = () => {
                 </div>
                 <div className='container'>
                     <div className='text-center py-5'>
-                        <img src={web} width={800} height={600} />
+                        <img src={web} className='rounded' width={900} height={350} />
                     </div>
-                        <article className='py-5 lh-lg'>
+                    <article className='py-5 lh-lg'>
+                        <div className='d-flex gap-3'>
                             <div>
                             <h2 className='fw-bold heading-color'> Powering Your Web Experience</h2>
                             <p>At Peerlogics we specialize in creating visually appealing, high-performance websites that drive business growth.
                                 Our team focuses on crafting responsive, scalable, and secure websites tailored to meet your unique needs.
                                 Whether you're looking for a simple portfolio or a dynamic e-commerce platform, we ensure seamless user experience,
                                 optimized performance, and modern design trends to enhance your digital presence.</p>
-                            <h4 className='fw-bold heading-color'>Why Choose Us?</h4>
-                            <div>
-
                             </div>
-                            </div>
-                            <ul className='p-0'>
-                                <li className='list-bullets d-flex align-items-center gap-3'>
-                                    <span><FaCheckCircle className='tick-icon' /></span>
-                                    <span className='fw-bold'>Custom Solutions:</span>  Tailored websites to suit your business requirements.
-                                </li>
-                                <li className='list-bullets d-flex align-items-center gap-3'>
-                                    <span><FaCheckCircle className='tick-icon' /></span>
-                                    <span className='fw-bold'>Responsive Design:</span>  Optimized for all devices, ensuring seamless access across platforms.</li>
-                                <li className='list-bullets d-flex align-items-center gap-3'>
-                                    <span><FaCheckCircle className='tick-icon' /></span>
-                                    <span className='fw-bold'>SEO-Friendly:</span>  Built with best practices for higher visibility on search engines.</li>
-                                <li className='list-bullets d-flex align-items-center gap-3'>
-                                    <span><FaCheckCircle className='tick-icon' /></span>
-                                    <span className='fw-bold'>Performance Focused:</span>  Fast loading times and smooth navigation for enhanced user engagement.</li>
-                                <li className='list-bullets d-flex align-items-center gap-3'>
-                                    <span><FaCheckCircle className='tick-icon' /></span>
-                                    <span className='fw-bold'>Ongoing Support:</span>  Reliable maintenance and support to keep your website updated and secure.</li>
-                            </ul>
-                            <p>With Peerlogics, you’re choosing a partner committed to your digital success. Let us help you build a website
-                                that not only looks great but also drives results for your business.</p>
-                        </article>
+                                <div className="card servicedata-cards" style={{ width: '100rem' }}>
+                                        <h5 className="card-title fw-bold p-3 text-center">What We Deliver</h5>
+                                        <ul className='list-style-none list-bullets p-0 '>
+                                            <li className='border-bottom p-2'>Cutting-edge technology implementation</li>
+                                            <li className='border-bottom p-2'>Conversion-focused layouts and UI</li>
+                                            <li className='p-2'>Full-stack development for end-to-end solutions</li>
+                                        </ul>
+                                </div>
+                        </div>
+                        <h4 className='fw-bold heading-color'>Why Choose Us?</h4>
+                        <ul className='p-0'>
+                            <li className='list-bullets d-flex align-items-center gap-3'>
+                                <span><FaCheckCircle className='tick-icon' /></span>
+                                <span className='fw-bold'>Custom Solutions:</span>  Tailored websites to suit your business requirements.
+                            </li>
+                            <li className='list-bullets d-flex align-items-center gap-3'>
+                                <span><FaCheckCircle className='tick-icon' /></span>
+                                <span className='fw-bold'>Responsive Design:</span>  Optimized for all devices, ensuring seamless access across platforms.</li>
+                            <li className='list-bullets d-flex align-items-center gap-3'>
+                                <span><FaCheckCircle className='tick-icon' /></span>
+                                <span className='fw-bold'>SEO-Friendly:</span>  Built with best practices for higher visibility on search engines.</li>
+                            <li className='list-bullets d-flex align-items-center gap-3'>
+                                <span><FaCheckCircle className='tick-icon' /></span>
+                                <span className='fw-bold'>Performance Focused:</span>  Fast loading times and smooth navigation for enhanced user engagement.</li>
+                            <li className='list-bullets d-flex align-items-center gap-3'>
+                                <span><FaCheckCircle className='tick-icon' /></span>
+                                <span className='fw-bold'>Ongoing Support:</span>  Reliable maintenance and support to keep your website updated and secure.</li>
+                        </ul>
+                        <p>With Peerlogics, you’re choosing a partner committed to your digital success. Let us help you build a website
+                            that not only looks great but also drives results for your business.</p>
+                    </article>
                 </div>
 
 
