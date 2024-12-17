@@ -9,9 +9,7 @@ const Testimonials = () => {
                         <div className="col-md-5 d-flex flex-column justify-content-center align-items-center align-items-md-start">
                             <p className='happy-text'>HAPPY CLIENT</p>
                             <h1 className='testimonial-text'>Our Testimonial</h1>
-                            <p className='text-center text-md-start'>So if you're looking to get a little slogan inspiration of your own,
-                                That's So if you'to get are looking to get a little slogan inspiration of your own,
-                                take a look at some of your favourite
+                            <p className='text-center text-md-start'>We pride ourselves on delivering exceptional solutions that drive results. Here’s what our happy clients have to say about their experience with PeerLogics
                             </p>
                         </div>
                         <div className="col-md-7">

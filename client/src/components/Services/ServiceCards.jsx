@@ -16,7 +16,7 @@ const ServiceCards = () => {
         <div className='container'>
             <div className='row my-5'>
                 {/* Web Development */}
-                <div className="col-lg-4 col-sm-6 col-12 d-flex justify-content-center justify-content-lg-start">
+                <div className="col-lg-4 col-sm-6 col-12 d-flex justify-content-center  ">
                     <div className="card service-card" style={{ width: '22rem', height: " 300px" }}>
                         <div className="position-absolute d-flex flex-column gap-2 ">
                             <div className=' '>
@@ -34,7 +34,7 @@ const ServiceCards = () => {
                     </div>
                 </div>
                 {/* UI/UX development */}
-                <div className="col-lg-4 col-sm-6 col-12 d-flex justify-content-center justify-content-lg-start mt-5 mt-sm-0">
+                <div className="col-lg-4 col-sm-6 col-12 d-flex justify-content-center   mt-5 mt-sm-0">
                     <div className="card service-card" style={{ width: '22rem', height: " 300px" }}>
                         <div className="position-absolute d-flex flex-column gap-2 ">
                             <div className=' '>
@@ -52,7 +52,7 @@ const ServiceCards = () => {
                     </div>
                 </div>
                 {/* Medical Billing */}
-                <div className="col-lg-4 col-sm-6 col-12 d-flex justify-content-center justify-content-lg-start mt-5 mt-lg-0">
+                <div className="col-lg-4 col-sm-6 col-12 d-flex justify-content-center   mt-5 mt-lg-0">
                     <div className="card service-card" style={{ width: '22rem', height: " 300px" }}>
                         <div className="position-absolute d-flex flex-column gap-2 ">
                             <div className=' '>
@@ -70,7 +70,7 @@ const ServiceCards = () => {
                     </div>
                 </div>
                 {/* E-Commerce Development */}
-                <div className="col-lg-4 col-sm-6 col-12 d-flex justify-content-center justify-content-lg-start mt-5">
+                <div className="col-lg-4 col-sm-6 col-12 d-flex justify-content-center   mt-5">
                     <div className="card service-card" style={{ width: '22rem', height: " 300px" }}>
                         <div className="position-absolute d-flex flex-column gap-2 ">
                             <div className=' '>
@@ -88,7 +88,7 @@ const ServiceCards = () => {
                     </div>
                 </div>
                 {/* Software development */}
-                <div className="col-lg-4 col-sm-6 col-12 d-flex justify-content-center justify-content-lg-start mt-5">
+                <div className="col-lg-4 col-sm-6 col-12 d-flex justify-content-center   mt-5">
                     <div className="card service-card" style={{ width: '22rem', height: " 300px" }}>
                         <div className="position-absolute d-flex flex-column gap-2 ">
                             <div className=' '>
@@ -106,7 +106,7 @@ const ServiceCards = () => {
                     </div>
                 </div>
                 {/* Medical HR Management */}
-                <div className="col-lg-4 col-sm-6 col-12 d-flex justify-content-center justify-content-lg-start mt-5">
+                <div className="col-lg-4 col-sm-6 col-12 d-flex justify-content-center   mt-5">
                     <div className="card service-card" style={{ width: '22rem', height: " 300px" }}>
                         <div className="position-absolute d-flex flex-column gap-2">
                             <div className=' '>

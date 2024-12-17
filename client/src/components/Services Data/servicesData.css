@@ -1,9 +1,15 @@
-.web-section{
+.servicename-section{
     background-color: black;
-    height: 50vh;
+    height: 70vh;
+    background-image: url("../assests/servicedata-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .our-services-text{
-    letter-spacing: 16px;
+    letter-spacing: 10px;
+}
+.heading-color{
+    color: #DF6352;
 }
 .web{
     color: #DF6352 !important;
