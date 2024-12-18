@@ -16,7 +16,7 @@ const Contact = () => {
                     <h1 className='our-services-text text-white'>Contact Us</h1>
                 </div>
             </div>
-            <div className='container mt-5'>
+            <div className='container mt-5 pt-5'>
                 <div className='row'>
                     <div className='col-md-5'>
                         <p className='get-started-text mb-0'>GET STARTED</p>
