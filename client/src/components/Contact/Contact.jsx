@@ -10,8 +10,11 @@ import Testimonials from '../Testimonials/Testimonials';
 const Contact = () => {
     return (
         <>
-            <div className='bg-black'>
-                <Navbar />
+            <div className='contact-section'>
+            <Navbar />
+                <div className='contact'>
+                    <h1 className='our-services-text text-white'>Contact Us</h1>
+                </div>
             </div>
             <div className='container mt-5'>
                 <div className='row'>
@@ -23,21 +26,18 @@ const Contact = () => {
                             <div className='d-flex align-items-center gap-3 contact-detail-bg'>
                                 <IoLocationSharp className='contact-page-icons' />
                                 <div>
-                                    {/* <h6 className='mb-0'>Our Head Office</h6> */}
                                     <p className='mb-0'>35-C Empress Road Lahore</p>
                                 </div>
                             </div>
                             <div className='d-flex align-items-center gap-3 contact-detail-bg'>
                                 <IoIosMail className='contact-page-icons' />
                                 <div>
-                                    {/* <h6 className='mb-0'>Mail us for more information</h6> */}
                                     <p className='mb-0'>info@peerlogics.com.pk</p>
                                 </div>
                             </div>
                             <div className='d-flex align-items-center gap-3 contact-detail-bg'>
                                 <FaPhoneAlt className="contact-page-icons" />
                                 <div>
-                                    {/* <h6 className='mb-0'>Mail us for more information</h6> */}
                                     <p className='mb-0'>info@peerlogics.com.pk</p>
                                 </div>
                             </div>
@@ -51,20 +51,16 @@ const Contact = () => {
                             </div>
                             <div className='d-flex gap-2'>
                                 <div className='d-flex flex-column'>
-                                    {/* <label>Name:</label> */}
                                     <input type="text" className='input-field' placeholder='Name...' />
                                 </div>
                                 <div className='d-flex flex-column'>
-                                    {/* <label>Phone:</label> */}
                                     <input type="tel" className='input-field' placeholder='Phone...' />
                                 </div>
                             </div>
                             <div className='d-flex flex-column'>
-                                {/* <label>Email:</label> */}
                                 <input type="email" className='input-field' placeholder='Email...' />
                             </div>
                             <div className='d-flex flex-column'>
-                                {/* <label>Message:</label> */}
                                 <textarea type="text" className='input-field' placeholder='Message...' />
                             </div>
                             <div className='text-center'>

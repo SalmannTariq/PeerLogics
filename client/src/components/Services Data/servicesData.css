@@ -4,8 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.servicename-section > div {
-  height: 30vh;
+.service-category  {
+  height: 40vh;
 }
 .our-services-text {
   letter-spacing: 10px;

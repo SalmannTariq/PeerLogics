@@ -14,7 +14,7 @@ const MedHrMang = () => {
             <div>
             <div className='servicename-section'>
                     <Navbar />
-                    <div className=' d-flex flex-column justify-content-center align-items-center'>
+                    <div className='service-category d-flex flex-column justify-content-center align-items-center'>
                         <h1 className='text-white our-services-text'>Medical HR Management</h1>
                         <p className='web'><Link className='text-decoration-none text-white' to="/home">Home</Link><span className='text-white'> &gt; </span> Medical HR Management</p>
                     </div>

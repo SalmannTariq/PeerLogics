@@ -1,3 +1,15 @@
+.contact-section{
+    background-image: url(../assests/servicedata-bg-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .get-started-text{
     color: #DF6352;
     letter-spacing: 7px;
